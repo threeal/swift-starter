@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## About This Repository
 
-A minimal, language-agnostic starter template with formatting enforcement and a CI workflow baseline. No build system, test suite, or application code — those are added by projects derived from it.
+A minimal Swift library and CLI starter template built with the Swift Package Manager. It's at an early stage: no Swift package, application code, or tests exist yet — they'll be added here before projects derive from it.
 
 ## Gotchas
 
