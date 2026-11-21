@@ -5,8 +5,8 @@ on:
   push:
     branches: [main]
 jobs:
-  check:
-    name: Check
+  build:
+    name: Build
     runs-on: macos-26
     steps:
       - name: Checkout
@@ -22,3 +22,6 @@ jobs:
 
       - name: Check pre-commit hook
         run: lefthook run pre-commit --all-files
+
+      - name: Build
+        run: swift build

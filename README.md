@@ -2,7 +2,7 @@
 
 A minimal template for building a [Swift](https://www.swift.org/) library with an optional CLI using the Swift Package Manager. Ships pre-configured with formatting enforcement, pre-commit hooks, and CI.
 
-This template is at an early stage: the Swift package, the sample library and CLI, and their tests are yet to come.
+This template is at an early stage: it has a Swift package with a sample Fibonacci library, while the sample CLI and tests are yet to come.
 
 ## Getting Started
 
@@ -10,7 +10,7 @@ Create a new repository from this template on GitHub using [this link](https://g
 
 ## Setup
 
-Install [Lefthook](https://lefthook.dev/) and [dprint](https://dprint.dev/), then register the pre-commit hook:
+Install [Swift](https://www.swift.org/install/), [Lefthook](https://lefthook.dev/), and [dprint](https://dprint.dev/), then register the pre-commit hook:
 
 ```sh
 lefthook install
@@ -22,10 +22,12 @@ Replace or extend the template files to fit your project:
 
 - **`.github/workflows/ci.yaml`** — Extend or replace the CI workflow.
 - **`.github/dependabot.yaml`** — Adjust update frequency or add more package ecosystems.
+- **`Sources/`** — Replace the placeholder library with your own code.
 - **`CLAUDE.md`** — Replace with guidance specific to your project.
 - **`dprint.json`** — Add or remove dprint plugins for your language.
 - **`lefthook.yaml`** — Add more pre-commit checks or other Git hooks.
 - **`LICENSE`** — Replace with your preferred license, or keep the [Unlicense](https://unlicense.org/).
+- **`Package.swift`** — Rename the package and its library to your own.
 - **`README.md`** — Replace with a description of your project.
 
 ## Development
