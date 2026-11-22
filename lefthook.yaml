@@ -4,7 +4,7 @@ pre-commit:
   fail_on_changes_diff: true
   jobs:
     - name: build
-      run: swift build
+      run: swift build --build-tests
 
     - name: fix formatting
       run: dprint fmt
