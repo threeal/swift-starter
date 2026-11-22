@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## About This Repository
 
-A minimal Swift library and CLI starter template built with the Swift Package Manager. It's at an early stage: the package holds only a sample Fibonacci library so far — the sample CLI and tests will be added here before projects derive from it.
+A minimal Swift library and CLI starter template built with the Swift Package Manager. It's at an early stage: the package holds only a sample Fibonacci library and its tests so far — the sample CLI will be added here before projects derive from it.
 
 ## Gotchas
 
