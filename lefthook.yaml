@@ -6,5 +6,8 @@ pre-commit:
     - name: build
       run: swift build --build-tests
 
+    - name: fix swift formatting
+      run: swift format --in-place --recursive .
+
     - name: fix formatting
       run: dprint fmt
