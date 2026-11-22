@@ -1,4 +1,4 @@
-import Bonacci
+import BonacciKit
 import Testing
 
 @Test func generatesFibonacciSequence() {
