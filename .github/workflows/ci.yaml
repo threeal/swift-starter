@@ -23,9 +23,6 @@ jobs:
       - name: Check pre-commit hook
         run: lefthook run pre-commit --all-files
 
-      - name: Build
-        run: swift build
-
       - name: Test
         run: swift test --enable-code-coverage
 
